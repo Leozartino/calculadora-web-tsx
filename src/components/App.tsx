@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Button from "./Button";
+import Input from "./Input";
+
 import "./App.css";
 
 function App() {
+  const [inputState, setInput] = useState<string>("");
   return (
     <div className="app">
       <div className="calc-wrapper">
+        <Input input={inputState}></Input>
         <div className="row">
           <Button>7</Button>
           <Button>8</Button>

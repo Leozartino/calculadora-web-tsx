@@ -12,10 +12,6 @@
   box-shadow: 2px 2px 1px 1px #000;
 }
 
-.button-wrapper:active {
-  box-shadow: none;
-}
-
 .operator {
   background-color: #fcbb6d;
   color: #fff;
