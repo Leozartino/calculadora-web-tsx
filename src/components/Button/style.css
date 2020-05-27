@@ -3,15 +3,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: lighter;
+  font-weight: bold;
   font-size: 1.4em;
-  background-color: #e0e1e6;
-  color: #888;
+  background-color: #d8737f;
+  color: #fff;
   flex: 1;
-  outline: 1px solid #888;
+  outline: 1px solid #ab6c82;
+  box-shadow: 2px 2px 1px 1px #000;
+}
+
+.button-wrapper:active {
+  box-shadow: none;
 }
 
 .operator {
-  background-color: #fe9241;
-  color: white;
+  background-color: #fcbb6d;
+  color: #fff;
 }
